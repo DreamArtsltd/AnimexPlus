@@ -1,0 +1,70 @@
+.html{
+  height: 100%;
+  width: 100%;
+}
+
+@font-face{ 
+     font-family: Daltd; 
+     src: url('DALimited-Font.ttf'); 
+ } 
+ *{ 
+     font-family: Daltd, arial; 
+ } 
+ #descri{
+     color: #6c6c6c;
+     margin-bottom: 2px;
+ }
+ .body-uno{ 
+     background: black; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 90vh;
+ } 
+ 
+ /*pagina dos*/ 
+ .titulo-app{ 
+     color: white; 
+     text-align: center; 
+     font-size: 40px; 
+ } 
+        .play-plus-card { 
+         background: white;
+          width: 280px;
+          padding-bottom: 20px;
+          height: 100%;
+          border-radius: 20px;
+       display: grid; 
+       place-items: center; 
+          justify-content: center;
+ } 
+ #title{
+     margin-bottom: 0;
+ }
+.cards{
+  display: flex;
+  justify-content: center;
+}
+#img{
+ border-radius: 35px;
+  transform: translateY(20px);
+  width: 150px;
+  height: 150px;
+}
+button{
+margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 200px;
+  background: green;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#descarga{
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
