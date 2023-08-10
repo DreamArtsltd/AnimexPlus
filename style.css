@@ -21,7 +21,9 @@
      align-items: center;
      height: 90vh;
  } 
- 
+ a{
+    text-decoration: none;
+}
  /*pagina dos*/ 
  .titulo-app{ 
      color: white; 
