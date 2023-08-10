@@ -70,3 +70,17 @@ margin-top: 10px;
     justify-content: center;
     align-items: center;    
 }
+#toast {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  z-index: 1;
+  font-size: 10px;
+}
+
