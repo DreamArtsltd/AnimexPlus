@@ -63,7 +63,7 @@ margin-top: 10px;
   border: 0px;
 }
 
-#descarga{
+.descargar{
     background: white;
     border: 1px solid black;
     display: flex;
