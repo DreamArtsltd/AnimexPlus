@@ -1,12 +1,14 @@
 document.getElementById("miBoton").onclick = function() {
-  mostrarToast("Se guardará en /storage/emulated/0/Download");
+  mostrarToastConDelay("Se guardará en /storage/emulated/0/Download", 2000); 
 };
 
-function mostrarToast(mensaje) {
+function mostrarToastConDelay(mensaje, retraso) {
   var toast = document.getElementById("toast");
   toast.innerHTML = mensaje;
-  toast.style.display = "block";
   setTimeout(function() {
-    toast.style.display = "none";
-  }, 2500);
+    toast.style.display = "block";
+    setTimeout(function() {
+      toast.style.display = "none";
+    }, 2500); 
+  }, retraso);
 }
